@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Menu, X, Briefcase } from 'lucide-react';
+import { Search, Menu, X, Briefcase, Heart } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
+import { useFavorites } from '../context/FavoritesContext';
 
 interface HeaderProps {
   onSearch: (query: string) => void;
@@ -11,6 +12,7 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
+  const { favorites } = useFavorites();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -58,6 +60,21 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
             </div>
             <nav className="flex space-x-6">
               <Link
+                to="/favorites"
+                className={`text-gray-700 hover:text-red-600 transition-colors font-medium flex items-center ${
+                  location.pathname === '/favorites' ? 'text-red-600' : ''
+                }`}
+                title="Your favorites"
+              >
+                <Heart className={`h-4 w-4 mr-1 ${favorites.length > 0 ? 'fill-current' : ''}`} />
+                Favorites
+                {favorites.length > 0 && (
+                  <span className="ml-1 bg-red-100 text-red-600 text-xs px-2 py-0.5 rounded-full">
+                    {favorites.length}
+                  </span>
+                )}
+              </Link>
+              <Link
                 to="/core"
                 className={`text-gray-700 hover:text-blue-600 transition-colors font-medium ${
                   location.pathname === '/core' ? 'text-blue-600' : ''
@@ -96,6 +113,21 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
               <Search className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
             </div>
             <nav className="flex flex-col space-y-4">
+              <Link
+                to="/favorites"
+                className={`text-gray-700 hover:text-red-600 transition-colors font-medium flex items-center ${
+                  location.pathname === '/favorites' ? 'text-red-600' : ''
+                }`}
+                onClick={() => setIsMobileMenuOpen(false)}
+              >
+                <Heart className={`h-4 w-4 mr-1 ${favorites.length > 0 ? 'fill-current' : ''}`} />
+                Favorites
+                {favorites.length > 0 && (
+                  <span className="ml-1 bg-red-100 text-red-600 text-xs px-2 py-0.5 rounded-full">
+                    {favorites.length}
+                  </span>
+                )}
+              </Link>
               <Link
                 to="/core"
                 className={`text-gray-700 hover:text-blue-600 transition-colors font-medium ${
