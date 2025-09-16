@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Heart } from 'lucide-react';
+import { Heart, CheckCircle } from 'lucide-react';
 import { HrKnowledgeArea } from '../data/hrKnowledgeAreas';
 import { useFavorites } from '../context/FavoritesContext';
+import { useProgress } from '../context/ProgressContext';
 
 interface KnowledgeCardProps {
   area: HrKnowledgeArea;
@@ -12,6 +13,7 @@ const KnowledgeCard: React.FC<KnowledgeCardProps> = ({ area }) => {
   // Use the icon component directly
   const IconComponent = area.icon;
   const { isFavorite, toggleFavorite } = useFavorites();
+  const { isVisited } = useProgress();
 
   const handleFavoriteClick = (e: React.MouseEvent) => {
     e.preventDefault(); // Prevent navigation when clicking favorite button
@@ -48,7 +50,7 @@ const KnowledgeCard: React.FC<KnowledgeCardProps> = ({ area }) => {
         </button>
       </div>
       <p className="text-gray-600 flex-grow">{area.description}</p>
-      <div className="mt-4 pt-4 border-t border-gray-100">
+      <div className="mt-4 pt-4 border-t border-gray-100 flex items-center justify-between">
         <span className={`text-sm font-medium px-3 py-1 rounded-full ${
           area.category === 'core' 
             ? 'bg-blue-100 text-blue-700' 
@@ -56,6 +58,12 @@ const KnowledgeCard: React.FC<KnowledgeCardProps> = ({ area }) => {
         }`}>
           {area.category === 'core' ? 'Core Knowledge' : 'Specialized Knowledge'}
         </span>
+        {isVisited(area.id) && (
+          <div className="flex items-center text-green-600" title="Visited">
+            <CheckCircle className="h-4 w-4 mr-1" />
+            <span className="text-xs font-medium">Visited</span>
+          </div>
+        )}
       </div>
     </Link>
   );

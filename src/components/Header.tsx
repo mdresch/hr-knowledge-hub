@@ -1,7 +1,9 @@
 import React, { useState, useEffect } from 'react';
-import { Search, Menu, X, Briefcase, Heart } from 'lucide-react';
+import { Search, Menu, X, Briefcase, Heart, BookOpen } from 'lucide-react';
 import { Link, useLocation } from 'react-router-dom';
 import { useFavorites } from '../context/FavoritesContext';
+import { useProgress } from '../context/ProgressContext';
+import { hrKnowledgeAreas } from '../data/hrKnowledgeAreas';
 
 interface HeaderProps {
   onSearch: (query: string) => void;
@@ -13,6 +15,11 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
   const location = useLocation();
   const { favorites } = useFavorites();
+  const { getVisitedCount } = useProgress();
+  
+  const totalAreas = hrKnowledgeAreas.length;
+  const visitedCount = getVisitedCount();
+  const progressPercentage = Math.round((visitedCount / totalAreas) * 100);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -59,6 +66,13 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
               <Search className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
             </div>
             <nav className="flex space-x-6">
+              <div className="flex items-center text-gray-700 hover:text-green-600 transition-colors font-medium" title={`${visitedCount} of ${totalAreas} areas explored`}>
+                <BookOpen className="h-4 w-4 mr-1" />
+                <span className="hidden lg:inline">Progress:</span>
+                <span className="ml-1 bg-green-100 text-green-600 text-xs px-2 py-0.5 rounded-full">
+                  {progressPercentage}%
+                </span>
+              </div>
               <Link
                 to="/favorites"
                 className={`text-gray-700 hover:text-red-600 transition-colors font-medium flex items-center ${
@@ -113,6 +127,13 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
               <Search className="absolute left-3 top-2.5 h-5 w-5 text-gray-400" />
             </div>
             <nav className="flex flex-col space-y-4">
+              <div className="flex items-center text-gray-700 hover:text-green-600 transition-colors font-medium" title={`${visitedCount} of ${totalAreas} areas explored`}>
+                <BookOpen className="h-4 w-4 mr-1" />
+                Progress:
+                <span className="ml-1 bg-green-100 text-green-600 text-xs px-2 py-0.5 rounded-full">
+                  {progressPercentage}%
+                </span>
+              </div>
               <Link
                 to="/favorites"
                 className={`text-gray-700 hover:text-red-600 transition-colors font-medium flex items-center ${

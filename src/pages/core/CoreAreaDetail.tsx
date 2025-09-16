@@ -1,10 +1,19 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { useParams, Navigate } from 'react-router-dom';
 import { hrKnowledgeAreas } from '../../data/hrKnowledgeAreas';
+import { useProgress } from '../../context/ProgressContext';
 
 const CoreAreaDetail: React.FC = () => {
   const { id } = useParams<{ id: string }>();
   const area = hrKnowledgeAreas.find(a => a.id === id && a.category === 'core');
+  const { markAsVisited } = useProgress();
+
+  // Mark this area as visited when the component mounts
+  useEffect(() => {
+    if (area) {
+      markAsVisited(area.id);
+    }
+  }, [area, markAsVisited]);
 
   if (!area) return <Navigate to="/core" replace />;
 
