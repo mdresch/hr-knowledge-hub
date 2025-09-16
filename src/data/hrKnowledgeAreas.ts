@@ -1,4 +1,4 @@
-import { Users, Target, Briefcase, CheckCircle, HeartHandshake, Shield, MessageCircle, Trophy, Banknote, GraduationCap, BarChart, Compass, UsersRound, Laptop, Scale, RefreshCw } from 'lucide-react';
+import { Users, Target, Briefcase, CheckCircle, HeartHandshake, Shield, MessageCircle, Trophy, BarChart, UsersRound, Laptop, Scale, RefreshCw } from 'lucide-react';
 
 export interface HrKnowledgeArea {
   id: string;
