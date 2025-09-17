@@ -1,8 +1,12 @@
 ---
 id: sop-legal-and-compliance-269
-title: ""Content Expansion: legal-and-compliance.md — Legal""
-owner: "TBD"
-related_issue: "17"
+title: 'Content Expansion: legal-and-compliance.md — Legal'
+owner: TBD
+status: draft
+version: '0.1'
+related_issue: 17
+reviewers:
+  - mdresch
 ---
 
 # Purpose

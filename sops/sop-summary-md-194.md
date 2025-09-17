@@ -1,8 +1,12 @@
 ---
 id: sop-summary-md-194
-title: ""Content Expansion: SUMMARY.md — (suggest owner)""
-owner: "TBD"
-related_issue: "13"
+title: 'Content Expansion: SUMMARY.md — (suggest owner)'
+owner: TBD
+status: draft
+version: '0.1'
+related_issue: 13
+reviewers:
+  - mdresch
 ---
 
 # Purpose

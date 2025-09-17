@@ -1,8 +1,12 @@
 ---
 id: sop-employee-relations-and-engagement-372
-title: ""Content Expansion: employee-relations-and-engagement.md — ER Team""
-owner: "TBD"
-related_issue: "10"
+title: 'Content Expansion: employee-relations-and-engagement.md — ER Team'
+owner: TBD
+status: draft
+version: '0.1'
+related_issue: 10
+reviewers:
+  - mdresch
 ---
 
 # Purpose

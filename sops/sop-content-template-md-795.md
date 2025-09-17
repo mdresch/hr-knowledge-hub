@@ -1,8 +1,14 @@
 ---
 id: sop-content-template-md-795
-title: ""Content Expansion: core-hr-areas-of-expertise/CONTENT_TEMPLATE.md — (suggest owner)""
-owner: "TBD"
-related_issue: "12"
+title: >-
+  Content Expansion: core-hr-areas-of-expertise/CONTENT_TEMPLATE.md — (suggest
+  owner)
+owner: TBD
+status: draft
+version: '0.1'
+related_issue: 12
+reviewers:
+  - mdresch
 ---
 
 # Purpose

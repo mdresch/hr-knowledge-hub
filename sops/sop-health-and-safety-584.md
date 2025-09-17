@@ -1,8 +1,12 @@
 ---
 id: sop-health-and-safety-584
-title: ""Content Expansion: health-and-safety.md — (suggest owner)""
-owner: "TBD"
-related_issue: "24"
+title: 'Content Expansion: health-and-safety.md — (suggest owner)'
+owner: TBD
+status: draft
+version: '0.1'
+related_issue: 24
+reviewers:
+  - mdresch
 ---
 
 # Purpose

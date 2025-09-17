@@ -1,8 +1,12 @@
 ---
 id: sop-leadership-development-645
-title: ""Content Expansion: leadership-development.md — L&D""
-owner: "TBD"
-related_issue: "21"
+title: 'Content Expansion: leadership-development.md — L&D'
+owner: TBD
+status: draft
+version: '0.1'
+related_issue: 21
+reviewers:
+  - mdresch
 ---
 
 # Purpose

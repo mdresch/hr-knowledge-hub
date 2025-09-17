@@ -1,8 +1,12 @@
 ---
 id: sop-diversity-equity-and-inclusion-dei-487
-title: ""Content Expansion: diversity-equity-and-inclusion-dei.md — DEI Lead""
-owner: "TBD"
-related_issue: "16"
+title: 'Content Expansion: diversity-equity-and-inclusion-dei.md — DEI Lead'
+owner: TBD
+status: draft
+version: '0.1'
+related_issue: 16
+reviewers:
+  - mdresch
 ---
 
 # Purpose

@@ -1,8 +1,12 @@
 ---
 id: sop-performance-management-629
-title: ""Content Expansion: performance-management.md — People Ops""
-owner: "TBD"
-related_issue: "18"
+title: 'Content Expansion: performance-management.md — People Ops'
+owner: TBD
+status: draft
+version: '0.1'
+related_issue: 18
+reviewers:
+  - mdresch
 ---
 
 # Purpose

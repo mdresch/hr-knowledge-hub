@@ -1,8 +1,12 @@
 ---
 id: sop-compensation-and-benefits-624
-title: ""Content Expansion: compensation-and-benefits.md — Rewards""
-owner: "TBD"
-related_issue: "8"
+title: 'Content Expansion: compensation-and-benefits.md — Rewards'
+owner: TBD
+status: draft
+version: '0.1'
+related_issue: 8
+reviewers:
+  - mdresch
 ---
 
 # Purpose

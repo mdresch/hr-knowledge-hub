@@ -1,8 +1,12 @@
 ---
 id: sop-hr-analytics-and-metrics-466
-title: ""Content Expansion: hr-analytics-and-metrics.md — Data Team""
-owner: "TBD"
-related_issue: "15"
+title: 'Content Expansion: hr-analytics-and-metrics.md — Data Team'
+owner: TBD
+status: draft
+version: '0.1'
+related_issue: 15
+reviewers:
+  - mdresch
 ---
 
 # Purpose

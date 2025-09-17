@@ -1,8 +1,12 @@
 ---
 id: sop-global-and-remote-workforce-management-933
-title: ""Content Expansion: global-and-remote-workforce-management.md — (suggest owner)""
-owner: "TBD"
-related_issue: "25"
+title: 'Content Expansion: global-and-remote-workforce-management.md — (suggest owner)'
+owner: TBD
+status: draft
+version: '0.1'
+related_issue: 25
+reviewers:
+  - mdresch
 ---
 
 # Purpose

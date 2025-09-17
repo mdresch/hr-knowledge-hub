@@ -11,7 +11,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0001-compensation-and-benefits.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 9,
@@ -25,7 +28,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0002-AssessmentBuilder.README.md.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 10,
@@ -39,7 +45,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0003-employee-relations-and-engagement.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 11,
@@ -53,7 +62,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0004-talent-acquisition-and-recruitment.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 12,
@@ -67,7 +79,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0005-CONTENT_TEMPLATE.md.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 13,
@@ -81,7 +96,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0006-SUMMARY.md.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 14,
@@ -95,7 +113,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0007-learning-and-development.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 15,
@@ -109,7 +130,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0008-hr-analytics-and-metrics.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 16,
@@ -123,7 +147,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0009-diversity-equity-and-inclusion-dei.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 17,
@@ -137,7 +164,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0010-legal-and-compliance.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 18,
@@ -151,7 +181,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0011-performance-management.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 19,
@@ -165,7 +198,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0012-employer-branding.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 20,
@@ -179,7 +215,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0013-change-management-and-organizational-development.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 21,
@@ -193,7 +232,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0014-leadership-development.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 22,
@@ -207,7 +249,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0015-hr-strategy-and-workforce-planning.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 23,
@@ -221,7 +266,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0016-hr-technology-and-systems.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 24,
@@ -235,7 +283,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0017-health-and-safety.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 25,
@@ -249,7 +300,10 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0018-global-and-remote-workforce-management.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   },
   {
     "issue": 26,
@@ -263,6 +317,9 @@
     "automation_opportunities": [],
     "notes": "Imported from scripts\\generated_issues\\0019-README-original.md.md",
     "created_on": "2025-09-17",
-    "last_updated": "2025-09-17"
+    "last_updated": "2025-09-17",
+    "reviewers": [
+      "mdresch"
+    ]
   }
 ]

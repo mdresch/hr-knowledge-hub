@@ -1,8 +1,12 @@
 ---
 id: sop-learning-and-development-208
-title: ""Content Expansion: learning-and-development.md — L&D""
-owner: "TBD"
-related_issue: "14"
+title: 'Content Expansion: learning-and-development.md — L&D'
+owner: TBD
+status: draft
+version: '0.1'
+related_issue: 14
+reviewers:
+  - mdresch
 ---
 
 # Purpose

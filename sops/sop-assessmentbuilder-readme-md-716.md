@@ -1,8 +1,14 @@
 ---
 id: sop-assessmentbuilder-readme-md-716
-title: ""Content Expansion: src/components/AssessmentBuilder.README.md — (suggest owner)""
-owner: "TBD"
-related_issue: "9"
+title: >-
+  Content Expansion: src/components/AssessmentBuilder.README.md — (suggest
+  owner)
+owner: TBD
+status: draft
+version: '0.1'
+related_issue: 9
+reviewers:
+  - mdresch
 ---
 
 # Purpose
