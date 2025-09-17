@@ -3,7 +3,7 @@ id: sop-talent-acquisition-and-recruitment-988
 title: >-
   Content Expansion:
   core-hr-areas-of-expertise/talent-acquisition-and-recruitment.md — TA Team
-owner: TBD
+owner: mdresch
 status: draft
 version: '0.1'
 related_issue: 11

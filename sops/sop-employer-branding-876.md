@@ -3,7 +3,7 @@ id: sop-employer-branding-876
 title: >-
   Content Expansion: specialized-hr-knowledge-areas/employer-branding.md —
   (suggest owner)
-owner: TBD
+owner: mdresch
 status: draft
 version: '0.1'
 related_issue: 19

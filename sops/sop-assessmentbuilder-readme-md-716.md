@@ -3,7 +3,7 @@ id: sop-assessmentbuilder-readme-md-716
 title: >-
   Content Expansion: src/components/AssessmentBuilder.README.md — (suggest
   owner)
-owner: TBD
+owner: mdresch
 status: draft
 version: '0.1'
 related_issue: 9

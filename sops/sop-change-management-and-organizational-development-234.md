@@ -3,7 +3,7 @@ id: sop-change-management-and-organizational-development-234
 title: >-
   Content Expansion: change-management-and-organizational-development.md —
   (suggest owner)
-owner: TBD
+owner: mdresch
 status: draft
 version: '0.1'
 related_issue: 20

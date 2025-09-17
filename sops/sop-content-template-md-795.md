@@ -3,7 +3,7 @@ id: sop-content-template-md-795
 title: >-
   Content Expansion: core-hr-areas-of-expertise/CONTENT_TEMPLATE.md — (suggest
   owner)
-owner: TBD
+owner: mdresch
 status: draft
 version: '0.1'
 related_issue: 12

@@ -1,7 +1,7 @@
 ---
 id: sop-legal-and-compliance-269
 title: 'Content Expansion: legal-and-compliance.md — Legal'
-owner: TBD
+owner: mdresch
 status: draft
 version: '0.1'
 related_issue: 17
