@@ -1,7 +1,7 @@
 ---
 id: sop-readme-original-md-708
 title: 'Content Expansion: README-original.md — (suggest owner)'
-owner: TBD
+owner: mdresch
 status: draft
 version: '0.1'
 related_issue: 26

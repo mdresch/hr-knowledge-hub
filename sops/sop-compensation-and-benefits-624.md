@@ -1,7 +1,7 @@
 ---
 id: sop-compensation-and-benefits-624
 title: 'Content Expansion: compensation-and-benefits.md — Rewards'
-owner: TBD
+owner: mdresch
 status: draft
 version: '0.1'
 related_issue: 8

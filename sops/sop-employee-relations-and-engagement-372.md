@@ -1,7 +1,7 @@
 ---
 id: sop-employee-relations-and-engagement-372
 title: 'Content Expansion: employee-relations-and-engagement.md — ER Team'
-owner: TBD
+owner: mdresch
 status: draft
 version: '0.1'
 related_issue: 10

@@ -1,7 +1,7 @@
 ---
 id: sop-leadership-development-645
 title: 'Content Expansion: leadership-development.md — L&D'
-owner: TBD
+owner: mdresch
 status: draft
 version: '0.1'
 related_issue: 21

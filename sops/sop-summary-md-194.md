@@ -1,7 +1,7 @@
 ---
 id: sop-summary-md-194
 title: 'Content Expansion: SUMMARY.md — (suggest owner)'
-owner: TBD
+owner: mdresch
 status: draft
 version: '0.1'
 related_issue: 13

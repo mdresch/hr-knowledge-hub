@@ -1,7 +1,7 @@
 ---
 id: sop-hr-strategy-and-workforce-planning-360
 title: 'Content Expansion: hr-strategy-and-workforce-planning.md — (suggest owner)'
-owner: TBD
+owner: mdresch
 status: draft
 version: '0.1'
 related_issue: 22

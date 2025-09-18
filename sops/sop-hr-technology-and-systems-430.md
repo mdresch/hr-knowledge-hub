@@ -1,7 +1,7 @@
 ---
 id: sop-hr-technology-and-systems-430
 title: 'Content Expansion: hr-technology-and-systems.md — (suggest owner)'
-owner: TBD
+owner: mdresch
 status: draft
 version: '0.1'
 related_issue: 23
